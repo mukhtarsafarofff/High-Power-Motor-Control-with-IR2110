@@ -6,3 +6,5 @@ The IR2110 is a popular h-bridge half driver. It is designed to drive high volta
 5) Pin 12 or LIN controls the LOW side MOSFET connected to pin 1 LO. A HIGH outputs 10-15V on pin 1 turning on the LOW side MOSFET.
 6) Pin 11 or SD will disable all outputs when HIGH. This is mostly connected to digital ground.
 7) Pins 10, 11, and 12 all have Schmitt trigger inputs and internal pull down resistors.
+8) Pin 13 or VSS is the digital power supply negative ground. This is often connected to motor supply HV voltage ground COM or pin 2.
+9) Pins 8 and 14 no connection.
