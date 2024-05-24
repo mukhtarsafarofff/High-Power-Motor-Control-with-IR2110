@@ -8,4 +8,4 @@ The IR2110 is a popular h-bridge half driver. It is designed to drive high volta
 7) Pins 10, 11, and 12 all have Schmitt trigger inputs and internal pull down resistors.
 8) Pin 13 or VSS is the digital power supply negative ground. This is often connected to motor supply HV voltage ground COM or pin 2.
 9) Pins 8 and 14 no connection.
-Now comes the tricky part the output. The IR2110 uses to "bootstrap" capacitor to supply the gate turn on voltage for MOSFET Q1. MOSFETs Q1 and Q2 are connected in a "totem pole" configuration.
+Now comes the tricky part the output. The IR2110 uses to "bootstrap" capacitor to supply the gate turn on voltage for MOSFET Q1. MOSFETs Q1 and Q2 are connected in a "totem pole" configuration. Pin 7 supplies the gate drive voltage for HIGH side MOSFET Q1. Pin 1 supplies the gate drive voltage for LOW MOSFET Q2.
