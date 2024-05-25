@@ -74,3 +74,4 @@ void loop() {
 3) Pin 10 oder HIN steuert den Ausgang an Pin 7, bezeichnet als HO, der den HIGH-Side-MOSFET steuert. Dieser Eingang muss wie unten erläutert pulsweitenmoduliert werden. Pin 12 oder LIN steuert den LOW-Side-MOSFET, der an Pin 1 LO angeschlossen ist. Ein HIGH gibt 10-15V an Pin 1 aus und schaltet den LOW-Side-MOSFET ein.
 4) Pin 11 oder SD deaktiviert alle Ausgänge, wenn er auf HIGH gesetzt ist. Dieser ist meistens mit der digitalen Masse verbunden.
 5) Pins 10, 11 und 12 haben alle Schmitt-Trigger-Eingänge und interne Pull-Down-Widerstände.
+6) Pin 13 oder VSS ist die negative Masse der digitalen Stromversorgung. Diese ist oft mit der Masse der Motorversorgung (HV) verbunden, COM oder Pin 2.
