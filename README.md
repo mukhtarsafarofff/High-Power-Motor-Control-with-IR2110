@@ -72,8 +72,9 @@ void loop() {
 1) Pin 9 oder VDD ist die positive Logikspannung im Bereich von 3-15V. Dies ermöglicht die Verwendung von CMOS- oder LS-TTL-Logik.
 2) Die VDD-Spannung hängt von der Art der Logik ab, die mit den Eingängen verbunden ist. Ich habe einen 5V-Arduino verwendet, daher habe ich 5V von einem Spannungsregler angeschlossen. Wenn Sie 3V-Logik wie Raspberry Pi GPIO verwenden, schließen Sie VDD an 3V an.
 3) Wenn Sie CMOS-Logik mit beispielsweise 12V verwenden, schließen Sie VDD an 12V an.
-4) Pin 10 oder HIN steuert den Ausgang an Pin 7, bezeichnet als HO, der den HIGH-Side-MOSFET steuert. Dieser Eingang muss wie unten erläutert pulsweitenmoduliert werden. Pin 12 oder LIN steuert den LOW-Side-MOSFET, der an Pin 1 LO angeschlossen ist. Ein HIGH gibt 10-15V an Pin 1 aus und schaltet den LOW-Side-MOSFET ein.
-5) Pin 11 oder SD deaktiviert alle Ausgänge, wenn er auf HIGH gesetzt ist. Dieser ist meistens mit der digitalen Masse verbunden.
-6) Pins 10, 11 und 12 haben alle Schmitt-Trigger-Eingänge und interne Pull-Down-Widerstände.
-7) Pin 13 oder VSS ist die negative Masse der digitalen Stromversorgung. Diese ist oft mit der Masse der Motorversorgung (HV) verbunden, COM oder Pin 2.
-8) Pins 8 und 14 sind nicht verbunden.
+4) Pin 10 oder HIN steuert den Ausgang an Pin 7, bezeichnet als HO, der den HIGH-Side-MOSFET steuert. Dieser Eingang muss wie unten erläutert pulsweitenmoduliert werden.
+5) Pin 12 oder LIN steuert den LOW-Side-MOSFET, der an Pin 1 LO angeschlossen ist. Ein HIGH gibt 10-15V an Pin 1 aus und schaltet den LOW-Side-MOSFET ein.
+6) Pin 11 oder SD deaktiviert alle Ausgänge, wenn er auf HIGH gesetzt ist. Dieser ist meistens mit der digitalen Masse verbunden.
+7) Pins 10, 11 und 12 haben alle Schmitt-Trigger-Eingänge und interne Pull-Down-Widerstände.
+8) Pin 13 oder VSS ist die negative Masse der digitalen Stromversorgung. Diese ist oft mit der Masse der Motorversorgung (HV) verbunden, COM oder Pin 2.
+9) Pins 8 und 14 sind nicht verbunden.
