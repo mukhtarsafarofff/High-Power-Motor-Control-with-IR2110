@@ -68,4 +68,4 @@ void loop() {
 } // end loop
 
 
-(DE)  Der IR2110 ist ein beliebter Halbbrückentreiber. Er ist dafür ausgelegt, Hochspannungs-MOSFET- und IGBT-Schaltungen zu steuern. Dies geschieht ohne die Verwendung von P-Kanal-MOSFETs oder photovoltaischen Optokopplern. 
+(DE)  Der IR2110 ist ein beliebter Halbbrückentreiber. Er ist dafür ausgelegt, Hochspannungs-MOSFET- und IGBT-Schaltungen zu steuern. Dies geschieht ohne die Verwendung von P-Kanal-MOSFETs oder photovoltaischen Optokopplern. Die Schaltung erzeugt die Gate-Spannung für den HIGH-Side-MOSFET aus einer Kombination von Diode und Bootstrap-Kondensator
