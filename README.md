@@ -75,3 +75,4 @@ void loop() {
 4) Pin 11 oder SD deaktiviert alle Ausgänge, wenn er auf HIGH gesetzt ist. Dieser ist meistens mit der digitalen Masse verbunden.
 5) Pins 10, 11 und 12 haben alle Schmitt-Trigger-Eingänge und interne Pull-Down-Widerstände.
 6) Pin 13 oder VSS ist die negative Masse der digitalen Stromversorgung. Diese ist oft mit der Masse der Motorversorgung (HV) verbunden, COM oder Pin 2.
+7) Pins 8 und 14 sind nicht verbunden.
