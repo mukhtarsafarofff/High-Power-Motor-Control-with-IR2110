@@ -67,3 +67,5 @@ void loop() {
 
 } // end loop
 
+
+(DE)  Der IR2110 ist ein beliebter Halbbrückentreiber. Er ist dafür ausgelegt, Hochspannungs-MOSFET- und IGBT-Schaltungen zu steuern.
