@@ -78,4 +78,4 @@ void loop() {
 7) Pins 10, 11 und 12 haben alle Schmitt-Trigger-Eingänge und interne Pull-Down-Widerstände.
 8) Pin 13 oder VSS ist die negative Masse der digitalen Stromversorgung. Diese ist oft mit der Masse der Motorversorgung (HV) verbunden, COM oder Pin 2.
 9) Pins 8 und 14 sind nicht verbunden.
-Nun kommt der knifflige Teil: der Ausgang. Der IR2110 verwendet einen "Bootstrap"-Kondensator, um die Einschaltspannung für das Gate des MOSFET Q1 bereitzustellen. Die MOSFETs Q1 und Q2 sind in einer "Totem-Pole"-Konfiguration verbunden.
+Nun kommt der knifflige Teil: der Ausgang. Der IR2110 verwendet einen "Bootstrap"-Kondensator, um die Einschaltspannung für das Gate des MOSFET Q1 bereitzustellen. Die MOSFETs Q1 und Q2 sind in einer "Totem-Pole"-Konfiguration verbunden. Pin 7 liefert die Gate-Ansteuerspannung für den HIGH-Side-MOSFET Q1
