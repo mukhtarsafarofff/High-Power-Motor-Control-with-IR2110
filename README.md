@@ -107,7 +107,8 @@ pinMode(SW2, INPUT_PULLUP);
 
 void loop() {
 
-analogWrite(INAHI, 0);analogWrite(INBHI, 0);
+analogWrite(INAHI, 0);
+analogWrite(INBHI, 0);
 
 // INAHI HIGH and INBLO HIGH // INALO LOW and INBHI LOW while (!digitalRead(SW1)) { digitalWrite(INALO, LOW);
 digitalWrite(INBHI, LOW); 
