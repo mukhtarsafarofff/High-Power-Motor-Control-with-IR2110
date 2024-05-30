@@ -91,7 +91,8 @@ void setup() { pinMode(INAHI, OUTPUT); pinMode(INBHI, OUTPUT); pinMode(INALO, OU
 
 digitalWrite(INAHI, LOW); digitalWrite(INBHI, LOW); digitalWrite(INALO, LOW); digitalWrite(INBLO, LOW);
 
-pinMode(SW1, INPUT); pinMode(SW2, INPUT);
+pinMode(SW1, INPUT); 
+pinMode(SW2, INPUT);
 
 pinMode(SW1, INPUT_PULLUP); pinMode(SW2, INPUT_PULLUP); }
 
