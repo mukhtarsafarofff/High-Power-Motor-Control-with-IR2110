@@ -87,7 +87,8 @@ Nun kommt der knifflige Teil: der Ausgang. Der IR2110 verwendet einen "Bootstrap
 
 int val;
 
-void setup() { pinMode(INAHI, OUTPUT); 
+void setup() { 
+pinMode(INAHI, OUTPUT); 
 pinMode(INBHI, OUTPUT); pinMode(INALO, OUTPUT); pinMode(INBLO, OUTPUT);
 
 digitalWrite(INAHI, LOW); 
