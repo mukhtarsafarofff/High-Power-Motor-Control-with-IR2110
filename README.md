@@ -97,7 +97,9 @@ digitalWrite(INBLO, LOW);
 pinMode(SW1, INPUT); 
 pinMode(SW2, INPUT);
 
-pinMode(SW1, INPUT_PULLUP); pinMode(SW2, INPUT_PULLUP); }
+pinMode(SW1, INPUT_PULLUP);
+pinMode(SW2, INPUT_PULLUP); 
+}
 
 void loop() {
 
