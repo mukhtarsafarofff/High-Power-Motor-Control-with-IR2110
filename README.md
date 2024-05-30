@@ -89,7 +89,8 @@ int val;
 
 void setup() { 
 pinMode(INAHI, OUTPUT); 
-pinMode(INBHI, OUTPUT); pinMode(INALO, OUTPUT); pinMode(INBLO, OUTPUT);
+pinMode(INBHI, OUTPUT);
+pinMode(INALO, OUTPUT); pinMode(INBLO, OUTPUT);
 
 digitalWrite(INAHI, LOW); 
 digitalWrite(INBHI, LOW); 
