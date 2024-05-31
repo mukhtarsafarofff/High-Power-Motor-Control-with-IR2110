@@ -120,7 +120,8 @@ analogWrite(INAHI, val);
 digitalWrite(INBLO, HIGH); }
 
 // INAHI LOW and INBLO LOW 
-//INALO HIGH and INBHI HIGH while (!digitalRead(SW2)) { digitalWrite(INAHI, LOW); 
+//INALO HIGH and INBHI HIGH 
+while (!digitalRead(SW2)) { digitalWrite(INAHI, LOW); 
 digitalWrite(INBLO, LOW); 
 val = analogRead(POT)/ 4;
 analogWrite(INBHI, val); 
