@@ -128,4 +128,5 @@ val = analogRead(POT)/ 4;
 analogWrite(INBHI, val); 
 digitalWrite(INALO, HIGH); }
 
-} // end loop
+} 
+// end loop
