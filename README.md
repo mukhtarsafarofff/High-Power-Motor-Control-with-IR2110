@@ -115,7 +115,7 @@ analogWrite(INBHI, 0);
 while (!digitalRead(SW1)) {
 digitalWrite(INALO, LOW);
 digitalWrite(INBHI, LOW); 
-val = analogRead(POT)/ 4 ;
+val = analogRead(POT)/4;
 analogWrite(INAHI, val); 
 digitalWrite(INBLO, HIGH); }
 
