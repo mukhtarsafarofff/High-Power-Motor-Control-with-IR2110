@@ -7,6 +7,7 @@
 6) Pin 11 or SD will disable all outputs when HIGH. This is mostly connected to digital ground.
 7) Pins 10, 11, and 12 all have Schmitt trigger inputs and internal pull down resistors.
 8) Pin 13 or VSS is the digital power supply negative ground. This is often connected to motor supply HV voltage ground COM or pin 2.
+9) Pins 8 and 14 no connection.
 
 
 
