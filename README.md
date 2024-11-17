@@ -2,6 +2,8 @@
 1) Pin 9 or VDD is the digital logic positive voltage range 3-15V. This enables the use of CMOS or LS TTL logic.
 2) The VDD voltage depends on the type of logic connected to the inputs. I used a 5V Arduino so I connected 5V from a voltage regulator.
 3) If using 3V logic such as Raspberry Pi GPIO connect to 3V. If using CMOS logic at say 12V connect VDD to 12V.
+4) Pin 10 or HIN controls the output on pin 7 labeled HO that controls the HIGH side MOSFET. This input must be pulse-width-modulated as explained below.
+
 
 
 
