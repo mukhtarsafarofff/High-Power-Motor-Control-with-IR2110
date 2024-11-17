@@ -3,6 +3,8 @@
 2) The VDD voltage depends on the type of logic connected to the inputs. I used a 5V Arduino so I connected 5V from a voltage regulator.
 3) If using 3V logic such as Raspberry Pi GPIO connect to 3V. If using CMOS logic at say 12V connect VDD to 12V.
 4) Pin 10 or HIN controls the output on pin 7 labeled HO that controls the HIGH side MOSFET. This input must be pulse-width-modulated as explained below.
+5) Pin 12 or LIN controls the LOW side MOSFET connected to pin 1 LO. A HIGH outputs 10-15V on pin 1 turning on the LOW side MOSFET.
+
 
 
 
