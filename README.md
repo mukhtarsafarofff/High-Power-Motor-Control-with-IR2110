@@ -5,6 +5,8 @@
 4) Pin 10 or HIN controls the output on pin 7 labeled HO that controls the HIGH side MOSFET. This input must be pulse-width-modulated as explained below.
 5) Pin 12 or LIN controls the LOW side MOSFET connected to pin 1 LO. A HIGH outputs 10-15V on pin 1 turning on the LOW side MOSFET.
 6) Pin 11 or SD will disable all outputs when HIGH. This is mostly connected to digital ground.
+7) Pins 10, 11, and 12 all have Schmitt trigger inputs and internal pull down resistors.
+
 
 
 
